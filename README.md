@@ -64,7 +64,7 @@ reales. El diseño y los flujos se comparten bajo petición.
 | **MISP multi-feed ingester** | Ingesta de IOCs multi-feed a MISP | n8n · MISP | Privado |
 | **OpenCTI multi-feed intelligence** | Ingesta de threat intelligence multi-feed a OpenCTI | n8n · OpenCTI | Privado |
 | **Certificados → RITM** | Crea RITMs en ServiceNow antes de que venza un certificado | n8n · ServiceNow | Privado |
-| **Email triage** | Clasificación y triage de correo con LLM | n8n · Groq | Privado |
+| [**Email triage**](https://github.com/victormonsalves/email-triage-groq) | Clasificación y triage de correo con LLM | n8n · Groq | Público |
 | **Agente de noticias** | Ingesta de Google News, redacción con LLM y publicación en LinkedIn con deduplicación persistente | n8n · Groq · LinkedIn API | En preparación |
 
 ## Principios
