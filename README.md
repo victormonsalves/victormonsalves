@@ -56,11 +56,16 @@ más rastro de lo que pasó.
 
 ## Proyectos
 
-> Portafolio en reconstrucción. Los repositorios públicos irán apareciendo en esta tabla.
+Trabajo principalmente en repositorios privados: contienen configuraciones de entornos
+reales. El diseño y los flujos se comparten bajo petición.
 
-| Proyecto | Qué resuelve | Stack | Estado |
+| Proyecto | Qué resuelve | Stack | Acceso |
 |:--|:--|:--|:--|
-| Agente de noticias | Ingesta de Google News, redacción con LLM y publicación en LinkedIn con deduplicación persistente | n8n · Groq · LinkedIn API | En preparación |
+| **MISP multi-feed ingester** | Ingesta de IOCs multi-feed a MISP | n8n · MISP | Privado |
+| **OpenCTI multi-feed intelligence** | Ingesta de threat intelligence multi-feed a OpenCTI | n8n · OpenCTI | Privado |
+| **Certificados → RITM** | Crea RITMs en ServiceNow antes de que venza un certificado | n8n · ServiceNow | Privado |
+| **Email triage** | Clasificación y triage de correo con LLM | n8n · Groq | Privado |
+| **Agente de noticias** | Ingesta de Google News, redacción con LLM y publicación en LinkedIn con deduplicación persistente | n8n · Groq · LinkedIn API | En preparación |
 
 ## Principios
 
