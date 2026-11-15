@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="t">
+  <title id="t">Victor Monsalves — ciberseguridad, automatización y desarrollo</title>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1220"/>
+      <stop offset="55%" stop-color="#101a2c"/>
+      <stop offset="100%" stop-color="#141c2e"/>
+    </linearGradient>
+
+    <radialGradient id="glowTeal" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#2dd4bf" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#2dd4bf" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="glowViolet" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.26"/>
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2dd4bf"/>
+      <stop offset="100%" stop-color="#8b5cf6"/>
+    </linearGradient>
+
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity="0.045" stroke-width="1"/>
+    </pattern>
+
+    <style>
+      .title { font:700 46px 'Segoe UI',-apple-system,Helvetica,Arial,sans-serif; fill:#f8fafc; letter-spacing:-0.6px; }
+      .sub   { font:500 14px 'Segoe UI',-apple-system,Helvetica,Arial,sans-serif; fill:#94a3b8; letter-spacing:3.1px; }
+      .meta  { font:400 12px 'Segoe UI',-apple-system,Helvetica,Arial,sans-serif; fill:#64748b; letter-spacing:0.4px; }
+      .edge  { stroke:#2dd4bf; stroke-opacity:0.22; stroke-width:1; fill:none; }
+      .edge2 { stroke:#8b5cf6; stroke-opacity:0.20; stroke-width:1; fill:none; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="300" fill="url(#bg)"/>
+  <rect width="1200" height="300" fill="url(#grid)"/>
+
+  <!-- Halos -->
+  <ellipse cx="985" cy="150" rx="260" ry="170" fill="url(#glowTeal)"/>
+  <ellipse cx="1090" cy="90" rx="190" ry="140" fill="url(#glowViolet)"/>
+
+  <!-- Constelacion: automatizacion / red -->
+  <g>
+    <path class="edge" d="M800,84 L862,60 L922,112 L978,72 L1042,120 L1100,92"/>
+    <path class="edge" d="M800,84 L822,172 L884,202 L950,170 L1012,210 L1072,182 L1132,222"/>
+    <path class="edge" d="M978,72 L950,170 M922,112 L1012,210 M1042,120 L1072,182 M884,202 L902,252"/>
+    <path class="edge2" d="M862,60 L884,202 M1100,92 L1072,182 M1012,210 L1002,142"/>
+    <path class="edge" d="M822,172 L902,252 L1002,142"/>
+
+    <circle cx="800" cy="84" r="4.5" fill="#2dd4bf" opacity="0.95"/>
+    <circle cx="862" cy="60" r="3.2" fill="#2dd4bf" opacity="0.75"/>
+    <circle cx="922" cy="112" r="5.5" fill="#2dd4bf" opacity="0.9"/>
+    <circle cx="978" cy="72" r="3.6" fill="#a5f3fc" opacity="0.85"/>
+    <circle cx="1042" cy="120" r="4.6" fill="#2dd4bf" opacity="0.8"/>
+    <circle cx="1100" cy="92" r="3.2" fill="#8b5cf6" opacity="0.85"/>
+    <circle cx="822" cy="172" r="3.8" fill="#2dd4bf" opacity="0.7"/>
+    <circle cx="884" cy="202" r="5.2" fill="#8b5cf6" opacity="0.85"/>
+    <circle cx="950" cy="170" r="3.4" fill="#2dd4bf" opacity="0.75"/>
+    <circle cx="1012" cy="210" r="5.8" fill="#2dd4bf" opacity="0.95"/>
+    <circle cx="1072" cy="182" r="3.4" fill="#8b5cf6" opacity="0.8"/>
+    <circle cx="1132" cy="222" r="4.2" fill="#2dd4bf" opacity="0.7"/>
+    <circle cx="902" cy="252" r="3.6" fill="#a5f3fc" opacity="0.6"/>
+    <circle cx="1002" cy="142" r="6.2" fill="#f8fafc" opacity="0.9"/>
+  </g>
+
+  <!-- Texto -->
+  <rect x="64" y="112" width="52" height="3" rx="1.5" fill="url(#accent)"/>
+  <text class="title" x="64" y="166">Victor Monsalves</text>
+  <text class="sub"   x="66" y="196">CIBERSEGURIDAD · AUTOMATIZACIÓN · DESARROLLO</text>
+  <text class="meta"  x="66" y="232">Flujos que se ejecutan solos y se pueden auditar</text>
+
+  <!-- Filo inferior -->
+  <rect x="0" y="298" width="1200" height="2" fill="url(#accent)" opacity="0.55"/>
+</svg>

@@ -1,0 +1,12 @@
+{
+  // El README es una tarjeta de presentación con HTML: banner fuera de un H1,
+  // líneas largas en tablas y badges como URLs desnudas.
+  // Se desactivan a propósito esas reglas y la de fragmentos (#top), que apunta
+  // a un ancla HTML propia. El resto se exige.
+  "default": true,
+  "MD013": false,
+  "MD033": false,
+  "MD034": false,
+  "MD041": false,
+  "MD051": false
+}
