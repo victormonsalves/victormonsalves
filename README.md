@@ -86,5 +86,7 @@ en una discusión. No publico correo para evitar scraping.
 ---
 
 <div align="center">
+  <a href="https://github.com/victormonsalves/victormonsalves/actions/workflows/markdown-lint.yml"><img alt="CI Markdown" src="https://github.com/victormonsalves/victormonsalves/actions/workflows/markdown-lint.yml/badge.svg"></a>
+  <br>
   <sub>Perfil mantenido por Victor Monsalves · <a href="#top">Volver arriba</a></sub>
 </div>
