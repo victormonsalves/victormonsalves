@@ -29,7 +29,7 @@ auditar y fallan de forma controlada**. Menos tiempo operativo, menos error huma
 más rastro de lo que pasó.
 
 | Área | Qué hago |
-|:--|:--|
+| :-- | :-- |
 | **Automatización de operaciones** | Flujos en n8n que integran APIs, bases de datos y LLM: ingesta, normalización, decisión y publicación con deduplicación persistente. |
 | **Tooling de seguridad** | Utilidades para analizar artefactos, revisar configuraciones y detectar credenciales expuestas antes de que lleguen a un repositorio. |
 | **IA aplicada** | Modelos con salida estructurada, guardarraíles y revisión humana justo en el punto crítico. |
@@ -60,7 +60,7 @@ Trabajo principalmente en repositorios privados: contienen configuraciones de en
 reales. El diseño y los flujos se comparten bajo petición.
 
 | Proyecto | Qué resuelve | Stack | Acceso |
-|:--|:--|:--|:--|
+| :-- | :-- | :-- | :-- |
 | **MISP multi-feed ingester** | Ingesta de IOCs multi-feed a MISP | n8n · MISP | Privado |
 | **OpenCTI multi-feed intelligence** | Ingesta de threat intelligence multi-feed a OpenCTI | n8n · OpenCTI | Privado |
 | **Certificados → RITM** | Crea RITMs en ServiceNow antes de que venza un certificado | n8n · ServiceNow | Privado |
