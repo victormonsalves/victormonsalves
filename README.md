@@ -65,6 +65,7 @@ reales. El diseño y los flujos se comparten bajo petición.
 | **OpenCTI multi-feed intelligence** | Ingesta de threat intelligence multi-feed a OpenCTI | n8n · OpenCTI | Privado |
 | **Certificados → RITM** | Crea RITMs en ServiceNow antes de que venza un certificado | n8n · ServiceNow | Privado |
 | [**Email triage**](https://github.com/victormonsalves/email-triage-groq) | Clasificación y triage de correo con LLM | n8n · Groq | Público |
+| [**SOCGuard**](https://github.com/victormonsalves/socguard) | Inspector continuo de automatizaciones: abre y actualiza incidencias en ServiceNow con evidencia del log | Python · ServiceNow | Público |
 | **Agente de noticias** | Ingesta de Google News, redacción con LLM y publicación en LinkedIn con deduplicación persistente | n8n · Groq · LinkedIn API | En preparación |
 
 ## Principios
