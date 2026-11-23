@@ -66,6 +66,7 @@ reales. El diseño y los flujos se comparten bajo petición.
 | **Certificados → RITM** | Crea RITMs en ServiceNow antes de que venza un certificado | n8n · ServiceNow | Privado |
 | [**Email triage**](https://github.com/victormonsalves/email-triage-groq) | Clasificación y triage de correo con LLM | n8n · Groq | Público |
 | [**SOCGuard**](https://github.com/victormonsalves/socguard) | Inspector continuo de automatizaciones: abre y actualiza incidencias en ServiceNow con evidencia del log | Python · ServiceNow | Público |
+| [**Network backups**](https://github.com/victormonsalves/network-backups) | Respaldos automáticos de F5, Checkpoint, Palo Alto y Fortinet | Python · API REST | Público |
 | **Agente de noticias** | Ingesta de Google News, redacción con LLM y publicación en LinkedIn con deduplicación persistente | n8n · Groq · LinkedIn API | En preparación |
 
 ## Principios
